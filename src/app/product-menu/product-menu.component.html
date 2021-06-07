@@ -1,0 +1,13 @@
+<h1>Welcome to the Car shop</h1>
+<div *ngFor="let p of allProducts index as i">
+  <div>
+    
+    <p>{{i+1}}. Product Name:{{ p.name }} </p>
+  <p>Product Id:{{ p.productID }}</p>
+ <p> Product Price: {{ p.price }}</p>
+ </div>
+</div>
+  
+  <h3>Total products:{{allProducts.length}}</h3>
+    
+
